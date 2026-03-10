@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Sign Up – UrbanTech</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">UrbanTech</a>
+      <div></div>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-glass btn-sm">← Back to Store</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="auth-wrapper">
+  <div style="width:100%;max-width:460px;">
+    <!-- Logo above card -->
+    <div class="text-center mb-3">
+      <div style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;background:linear-gradient(135deg,var(--primary),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">UrbanTech</div>
+      <p style="font-size:0.85rem;margin-top:0.25rem;">Your trusted tech destination KE</p>
+    </div>
+
+<div class="auth-card">
+      <input type="radio" name="auth-tab" id="tab-login" class="auth-tab-radio" checked>
+      <input type="radio" name="auth-tab" id="tab-signup" class="auth-tab-radio">
+      <!-- Tabs -->
+      <div class="auth-tabs">
+        <label class="auth-tab" for="tab-login">Sign In</label>
+        <label class="auth-tab" for="tab-signup">Create Account</label>
+      </div>
+
+      <div class="auth-form-wrap">
+
+        <!-- ── Login Form ── -->
+        <div class="auth-form" id="form-login">
+          <h2 class="auth-title">Welcome back! 👋</h2>
+          <p class="auth-subtitle">Sign in to continue shopping</p>
+
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">✉️</span>
+              <input type="email" class="form-input has-icon" placeholder="you@example.com"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Password</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">🔒</span>
+              <input type="password" class="form-input has-icon" id="loginPass" placeholder="Enter your password"/>
+              
+            </div>
+          </div>
+
+          <div class="form-options">
+            <label class="form-check">
+              <input type="checkbox"/> Remember me
+            </label>
+            <a href="#" class="form-link">Forgot password?</a>
+          </div>
+
+          <a href="account.html" class="btn btn-primary btn-full btn-lg">Sign In →</a>
+
+          <div class="auth-divider"><span>or continue with</span></div>
+
+          <div class="social-btns mt-3">
+            <button class="social-btn">
+              <span><img src="images/icons/google.png" width="30px" height="30px"></span> Google
+            </button>
+            <button class="social-btn">
+              <span><img src="images/icons/fb.png" width="30px" height="30px"></span> Facebook
+            </button>
+          </div>
+
+          <p class="text-center mt-3" style="font-size:0.83rem;">
+            Don't have an account? <label for="tab-signup" class="form-link" style="cursor:pointer;">Sign up free</label>
+          </p>
+        </div>
+
+        <!-- ── Signup Form ── -->
+        <div class="auth-form" id="form-signup">
+          <h2 class="auth-title">Join UrbanTech 🚀</h2>
+          <p class="auth-subtitle">Create your account in seconds</p>
+
+          <div class="form-row">
+            <div class="form-group" style="margin-bottom:0;">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-input" placeholder="James"/>
+            </div>
+            <div class="form-group" style="margin-bottom:0;">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-input" placeholder="Njoroge"/>
+            </div>
+          </div>
+
+          <div class="form-group mt-2">
+            <label class="form-label">Email Address</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">✉️</span>
+              <input type="email" class="form-input has-icon" placeholder="you@example.com"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Phone Number</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">📱</span>
+              <input type="tel" class="form-input has-icon" placeholder="+254 700 000 000"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Password</label>
+            <div class="form-input-wrap">
+              <span class="form-input-icon">🔒</span>
+              <input type="password" class="form-input has-icon" id="signupPass" placeholder="Min 8 characters"/>
+              
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-check" style="align-items:flex-start;gap:0.6rem;">
+              <input type="checkbox" style="margin-top:3px;"/>
+              <span style="font-size:0.83rem;">I agree to the <a href="#" class="form-link">Terms of Service</a> and <a href="#" class="form-link">Privacy Policy</a></span>
+            </label>
+          </div>
+
+          <a href="account.html" class="btn btn-primary btn-full btn-lg" style="margin-bottom:1.25rem;">Create Account →</a>
+
+          <div class="auth-divider"><span>or sign up with</span></div>
+
+          <div class="social-btns mt-3">
+            <button class="social-btn">
+              <span><img src="images/icons/google.png" width="30px" height="30px"></span> Google
+            </button>
+            <button class="social-btn">
+              <span><img src="images/icons/fb.png" width="30px" height="30px"></span> Facebook
+            </button>
+          </div>
+
+          <p class="text-center mt-3" style="font-size:0.83rem;">
+            Already have an account? <label for="tab-login" class="form-link" style="cursor:pointer;">Sign in</label>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smartphones – UrbanTech</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">UrbanTech</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-dropdown"><a href="#">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="phones.html">📱 Phones</a></li>
+            <li><a href="laptops.html">💻 Laptops</a></li>
+            <li><a href="accessories.html">🎧 Accessories</a></li>
+          </ul>
+        </li>
+        <li><a href="new-arrivals.html">New Arrivals</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="login.html" class="nav-icon-btn">👤</a>
+        <a href="cart.html" class="nav-icon-btn">🛒<span class="cart-badge">3</span></a>
+        <a href="#mobileNav" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#" class="mobile-nav-close">✕</a>
+  <a href="index.html">🏠 Home</a>
+  <div class="mobile-nav-section">Products</div>
+  <a href="phones.html">📱 Phones</a>
+  <a href="laptops.html">💻 Laptops</a>
+  <a href="accessories.html">🎧 Accessories</a>
+  <a href="new-arrivals.html">✨ New Arrivals</a>
+  <a href="reviews.html">⭐ Reviews</a>
+  <a href="about.html">ℹ️ About</a>
+  <a href="contact.html">✉️ Contact</a>
+  <div class="mobile-nav-section">Account</div>
+  <a href="login.html">🔑 Login / Sign Up</a>
+  <a href="cart.html">🛒 Cart</a>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>📱 Smartphones</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Smartphones</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar ">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Apple</button>
+      <button class="filter-btn">Samsung</button>
+      <button class="filter-btn">Google</button>
+      <select class="filter-select" style="margin-left:auto;">
+        <option>Sort: Featured</option>
+        <option>Price: Low–High</option>
+        <option>Price: High–Low</option>
+        <option>Top Rated</option>
+      </select>
+      <span class="filter-count">Showing 9 products</span>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+
+      <div class="product-card " data-brand="apple">
+        <div class="product-image">
+          <!-- Image: images/phones/iphone14-thumb.png | 300×300px -->
+          <img src="images/phones/iphone14-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          <span class="product-badge badge-new">New</span>
+          
+          <div class="product-overlay">
+            <a href="products/phones/iphone14.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Apple</div>
+          <div class="product-name">iPhone 14 Pro Max</div>
+          <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(128)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 145,000</span><span class="product-original">KSh 165,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card " data-brand="samsung">
+        <div class="product-image">
+          <!-- Image: images/phones/galaxy-s23-thumb.png | 300×300px -->
+          <img src="images/phones/galaxy-s23-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          <span class="product-badge badge-sale">-15%</span>
+          
+          <div class="product-overlay">
+            <a href="products/phones/galaxyS23.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Samsung</div>
+          <div class="product-name">Galaxy S23 Ultra</div>
+          <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(212)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 115,000</span><span class="product-original">KSh 135,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card " data-brand="google">
+        <div class="product-image">
+          <!-- Image: images/phones/pixel8-thumb.png | 300×300px -->
+          <img src="images/phones/pixel8-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          <span class="product-badge badge-new">New</span>
+          
+          <div class="product-overlay">
+            <a href="products/phones/pixel8.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Google</div>
+          <div class="product-name">Pixel 8 Pro</div>
+          <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(67)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 95,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card " data-brand="apple">
+        <div class="product-image">
+          <!-- Image: images/phones/iphone13-thumb.png | 300×300px -->
+          <img src="images/phones/iphone13-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          <span class="product-badge badge-sale">-20%</span>
+          
+          <div class="product-overlay">
+            <a href="products/phones/iphone14.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Apple</div>
+          <div class="product-name">iPhone 13 (128GB)</div>
+          <div class="product-rating"><span class="stars">★★★★★</span><span class="rating-count">(302)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 75,000</span><span class="product-original">KSh 95,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card " data-brand="samsung">
+        <div class="product-image">
+          <!-- Image: images/phones/galaxy-a54-thumb.png | 300×300px -->
+          <img src="images/phones/galaxy-a54-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          <span class="product-badge badge-hot">Hot</span>
+          
+          <div class="product-overlay">
+            <a href="products/phones/galaxyS23.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Samsung</div>
+          <div class="product-name">Galaxy A54 5G</div>
+          <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(158)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 45,000</span></div>
+        </div>
+      </div>
+
+      <div class="product-card " data-brand="google">
+        <div class="product-image">
+          <!-- Image: images/phones/pixel7a-thumb.png | 300×300px -->
+          <img src="images/phones/pixel7a-thumb.png" alt="Product" class="product-card-img" loading="lazy" >
+          
+          <div class="product-overlay">
+            <a href="products/phones/pixel8.html" class="btn btn-primary " >View Details</a>
+            <button class="btn btn-glass  btn-icon">🛒</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-category">Google</div>
+          <div class="product-name">Pixel 7a</div>
+          <div class="product-rating"><span class="stars">★★★★☆</span><span class="rating-count">(89)</span></div>
+          <div class="product-pricing"><span class="product-price">KSh 62,000</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pagination mt-4">
+      <a href="#" class="page-btn">‹</a>
+      <a href="#" class="page-btn active">1</a>
+      <a href="#" class="page-btn">2</a>
+      <a href="#" class="page-btn">3</a>
+      <a href="#" class="page-btn">›</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="justify-content:center;">
+      <span>© 2024 UrbanTech · <a href="index.html" style="color:var(--primary);">Home</a> · <a href="contact.html" style="color:var(--primary);">Contact</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+</body>
+</html>

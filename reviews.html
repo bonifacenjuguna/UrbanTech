@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reviews – UrbanTech</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+<nav class="navbar">
+  <div class="container"><div class="nav-inner">
+    <a href="index.html" class="nav-logo">UrbanTech</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown"><a href="#">Products</a>
+        <ul class="dropdown-menu">
+          <li><a href="phones.html">📱 Phones</a></li>
+          <li><a href="laptops.html">💻 Laptops</a></li>
+          <li><a href="accessories.html">🎧 Accessories</a></li>
+        </ul>
+      </li>
+      <li><a href="new-arrivals.html">New Arrivals</a></li>
+      <li><a href="reviews.html" class="active">Reviews</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="login.html" class="nav-icon-btn">👤</a>
+      <a href="cart.html" class="nav-icon-btn">🛒<span class="cart-badge">3</span></a>
+      <a href="#mobileNav" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></a>
+    </div>
+  </div></div>
+</nav>
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#" class="mobile-nav-close">✕</a>
+  <a href="index.html">🏠 Home</a>
+  <a href="phones.html">📱 Phones</a><a href="laptops.html">💻 Laptops</a><a href="accessories.html">🎧 Accessories</a>
+  <a href="new-arrivals.html">✨ New Arrivals</a><a href="reviews.html">⭐ Reviews</a>
+  <a href="about.html">ℹ️ About</a><a href="contact.html">✉️ Contact</a>
+  <div class="mobile-nav-section">Account</div>
+  <a href="login.html">🔑 Login / Sign Up</a><a href="cart.html">🛒 Cart</a>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>⭐ Customer Reviews</h1>
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Reviews</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Rating summary -->
+    <div class="glass " style="padding:2rem;margin-bottom:3rem;display:grid;grid-template-columns:auto 1fr;gap:3rem;align-items:center;flex-wrap:wrap;">
+      <div style="text-align:center;">
+        <div style="font-family:var(--font-display);font-size:4rem;font-weight:800;color:var(--primary);line-height:1;">4.9</div>
+        <div class="stars" style="font-size:1.5rem;">★★★★★</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.5rem;">Based on 1,240 reviews</div>
+      </div>
+      <div>
+        <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+          <span style="font-size:0.85rem;width:40px;">5 ★</span>
+          <div style="flex:1;height:8px;background:rgba(0,0,0,0.07);border-radius:4px;overflow:hidden;"><div style="height:100%;width:84%;background:var(--warning);border-radius:4px;"></div></div>
+          <span style="font-size:0.8rem;color:var(--text-muted);width:35px;">84%</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+          <span style="font-size:0.85rem;width:40px;">4 ★</span>
+          <div style="flex:1;height:8px;background:rgba(0,0,0,0.07);border-radius:4px;overflow:hidden;"><div style="height:100%;width:12%;background:var(--warning);border-radius:4px;opacity:0.7;"></div></div>
+          <span style="font-size:0.8rem;color:var(--text-muted);width:35px;">12%</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+          <span style="font-size:0.85rem;width:40px;">3 ★</span>
+          <div style="flex:1;height:8px;background:rgba(0,0,0,0.07);border-radius:4px;overflow:hidden;"><div style="height:100%;width:3%;background:var(--warning);border-radius:4px;opacity:0.5;"></div></div>
+          <span style="font-size:0.8rem;color:var(--text-muted);width:35px;">3%</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem;">
+          <span style="font-size:0.85rem;width:40px;">2 ★</span>
+          <div style="flex:1;height:8px;background:rgba(0,0,0,0.07);border-radius:4px;overflow:hidden;"><div style="height:100%;width:1%;background:var(--warning);border-radius:4px;opacity:0.4;"></div></div>
+          <span style="font-size:0.8rem;color:var(--text-muted);width:35px;">1%</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:0.75rem;">
+          <span style="font-size:0.85rem;width:40px;">1 ★</span>
+          <div style="flex:1;height:8px;background:rgba(0,0,0,0.07);border-radius:4px;overflow:hidden;"><div style="height:100%;width:0.5%;background:var(--warning);border-radius:4px;opacity:0.3;"></div></div>
+          <span style="font-size:0.8rem;color:var(--text-muted);width:35px;">0.5%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reviews grid -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;">
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">JN</div>
+          <div><div class="reviewer-name">James Njoroge</div><div class="reviewer-date">2 days ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★★</div>
+        <div class="review-product">iPhone 14 Pro Max</div>
+        <p class="review-text">Absolutely love my new phone! UrbanTech had the best price in  Narok and delivery was same day. The packaging was perfect. Will definitely shop here again!</p>
+      </div>
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">AW</div>
+          <div><div class="reviewer-name">Amina Wanjiku</div><div class="reviewer-date">5 days ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★★</div>
+        <div class="review-product">MacBook Air M2</div>
+        <p class="review-text">My MacBook arrived perfectly packaged. The team was super helpful in helping me choose between models. Fast M-Pesa checkout too. 10/10!</p>
+      </div>
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">BO</div>
+          <div><div class="reviewer-name">Brian Otieno</div><div class="reviewer-date">1 week ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★☆</div>
+        <div class="review-product">Sony WH-1000XM5</div>
+        <p class="review-text">Headphones sound incredible. Was a bit nervous buying online but UrbanTech's 30-day return policy gave me confidence. Noise cancellation is next level.</p>
+      </div>
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">SK</div>
+          <div><div class="reviewer-name">Sarah Kamau</div><div class="reviewer-date">2 weeks ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★★</div>
+        <div class="review-product">Galaxy S23 Ultra</div>
+        <p class="review-text">The S-Pen is a game changer! Got it at a great discount. Customer service replied to my WhatsApp within minutes when I had questions. Amazing experience!</p>
+      </div>
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">DM</div>
+          <div><div class="reviewer-name">David Mwangi</div><div class="reviewer-date">3 weeks ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★★</div>
+        <div class="review-product">Dell XPS 15</div>
+        <p class="review-text">Ordered for my office. Came with full warranty documentation. The team even helped me set it up remotely via WhatsApp. Going to order 3 more units!</p>
+      </div>
+
+      <div class="review-card ">
+        <div class="review-header">
+          <div class="review-avatar">FO</div>
+          <div><div class="reviewer-name">Faith Odhiambo</div><div class="reviewer-date">1 month ago</div></div>
+        </div>
+        <div class="stars mb-1">★★★★☆</div>
+        <div class="review-product">AirPods Pro (2nd Gen)</div>
+        <p class="review-text">Legit product with Apple Kenya warranty. Delivery took 2 days but the price was unbeatable. Packaging was secure and professional. Very happy!</p>
+      </div>
+    </div>
+
+    <!-- Write a review -->
+    <div class="glass " style="padding:2rem;margin-top:3rem;">
+      <h3 style="margin-bottom:1rem;">✍️ Write a Review</h3>
+      <p style="margin-bottom:1.5rem;font-size:0.88rem;">Share your experience with UrbanTech</p>
+      <div class="form-group"><label class="form-label">Select Product</label>
+        <select class="form-input"><option>-- Choose a product you bought --</option><option>iPhone 14 Pro Max</option><option>MacBook Air M2</option><option>Galaxy S23 Ultra</option></select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Your Rating</label>
+        <div style="display:flex;gap:0.5rem;font-size:2rem;" id="starRating">
+          <span class="star-input" data-val="1" style="cursor:pointer;opacity:0.3;transition:opacity 0.2s;">★</span>
+          <span class="star-input" data-val="2" style="cursor:pointer;opacity:0.3;transition:opacity 0.2s;">★</span>
+          <span class="star-input" data-val="3" style="cursor:pointer;opacity:0.3;transition:opacity 0.2s;">★</span>
+          <span class="star-input" data-val="4" style="cursor:pointer;opacity:0.3;transition:opacity 0.2s;">★</span>
+          <span class="star-input" data-val="5" style="cursor:pointer;opacity:0.3;transition:opacity 0.2s;">★</span>
+        </div>
+      </div>
+      <div class="form-group"><label class="form-label">Your Review</label><textarea class="form-input" rows="4" placeholder="Tell others what you think..."></textarea></div>
+      <button class="btn btn-primary">Submit Review</button>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="justify-content:center;">
+      <span>© 2024 UrbanTech · <a href="index.html" style="color:var(--primary);">Home</a></span>
+    </div>
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+
+</body>
+</html>
